@@ -410,7 +410,7 @@ schedule = Montrose::Schedule.build do |s|
 end
 
 # add after building
-s << Montrose.yearly
+schedule << Montrose.yearly
 ```
 
 The `Schedule#<<` method also accepts valid recurrence options as hashes:
